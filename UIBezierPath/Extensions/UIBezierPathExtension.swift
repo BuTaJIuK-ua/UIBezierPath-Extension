@@ -54,7 +54,7 @@ extension UIBezierPath {
         self.close()
     }
     
-    static private let Kappa = 0.5522848
+    static private let Kappa = 0.552284749831
     
     func addElipseArc(center: CGPoint, radius: CGSize, corner: UIRectCorner) {
         let offset = CGPoint(x: radius.width * Self.Kappa, y: radius.height * Self.Kappa) // control point offset
